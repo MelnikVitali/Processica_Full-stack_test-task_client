@@ -1,3 +1,54 @@
+# Processica test task Full-stack Developer Client React.js
+
+[Deployed App on Netlify](https://react-mini-chat-app.netlify.app/)
+
+Author: Vitalii Melnyk
+
+## Technology Stack
+
+- React with React Hooks
+- React styles & libraries: Material-UI
+- Formik and Yup
+__________________________________________________________________
+## Objective of the Test Project for Full-stack JavaScript Developer vacancy
+Create a simple Node Express Web Application, which uses RESTful API to communicate with server.
+Result code should be clean as much as possible, here is target not just working use case, but better code as possible.
+Project can be delivered in any way you want, public repo of Bitbucket, GitHub etc.
+__________________________________________________________________
+## Technical Requirements
+
+### UI code:
+1. Form, build with any client-side framework with next inputs::
+- textarea field "Input";
+- textarea field "Output";
+- button "Proceed";
+2. By clicking the "Proceed" button send Input text to the server to an API POST endpoint.
+3. Server do some logic and return response in JSON format.
+4. Response should be displayed in the Output field, in next format: sorted words (only words without punktuation marks and symbols) in ascending order, with count of the entries in the text, and count of the unique words. Example:
+
+
+Hello world and hello Earth. Hello universe.
+
+
+And - 1
+
+Earth - 1
+
+Hello - 3
+
+Universe - 1
+
+World - 1
+
+Unique: 5
+
+### Server code:
+1. REST endpoint to process requests from the UI.
+2. When controller received data, need to calculate count of unique words and their entries in the text.
+3. Return response with a JSON body (in any format, which you like to use) to the UI.
+4. If request is without words API must return appropriate HTTP code.
+
+  _________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
