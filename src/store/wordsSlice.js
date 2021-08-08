@@ -17,16 +17,20 @@ const wordsSlice = createSlice({
         startLoading: state => {
             state.loading = true;
         },
-        getWordsSuccess: (state, { payload }) => {
+        getWordsSuccess: (state, {payload}) => {
             state.words = payload.words;
             state.text = payload.text;
             state.output = payload.words
-                .map(elem => `${Object.keys(elem)} - ${Object.values(elem)} `)
+                .map(elem => {
+                    return String(Object.keys(elem)) === 'Unique' ?
+                        `${Object.keys(elem)}: ${Object.values(elem)}` :
+                        `${Object.keys(elem)} - ${Object.values(elem)}`
+                })
                 .join('\n');
             state.loading = false;
             state.errorMessage = null;
         },
-        getError: (state, { payload }) => {
+        getError: (state, {payload}) => {
             state.loading = false;
             state.errorMessage = payload;
         },
