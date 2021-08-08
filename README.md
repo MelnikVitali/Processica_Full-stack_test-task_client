@@ -8,6 +8,9 @@ Author: Vitalii Melnyk
 
 - React with React Hooks
 - React styles & libraries: Material-UI
+- Redux
+- Redux-toolkit
+- axios
 - Formik and Yup
 __________________________________________________________________
 ## Objective of the Test Project for Full-stack JavaScript Developer vacancy
