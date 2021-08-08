@@ -4,10 +4,10 @@ import CreateText from './components/CreateText';
 const App = () => {
     return (
         <>
-            <Header/>
-            <CreateText/>
+            <Header />
+            <CreateText />
         </>
     );
-}
+};
 
 export default App;

@@ -1,6 +1,6 @@
 # Processica test task Full-stack Developer Client React.js
 
-[Deployed App on Netlify](https://react-mini-chat-app.netlify.app/)
+[Deployed App on Netlify](https://processica-fullstack.netlify.app/)
 
 Author: Vitalii Melnyk
 
